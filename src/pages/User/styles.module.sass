@@ -1,0 +1,15 @@
+@import "src/shared/styles/vars"
+@import "src/shared/styles/mixins"
+
+.container
+  flex-direction: column
+  border-radius: 16px
+  padding: 24px 30px
+  background-color: $card-bg-color
+
+.header
+  margin-bottom: 16px
+
+.title
+  color: $primary-text-color
+  @include textStyle(26px, 500, 34px)

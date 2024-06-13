@@ -1,0 +1,54 @@
+@import vars
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+.portal
+  width: 100vw
+  height: 100vh
+  position: absolute
+  top: 25%
+  left: 39%
+  z-index: 1000
+
+html, body
+  height: 100%
+  width: 100%
+  overflow: hidden
+
+#root
+  height: 100%
+  width: 100%
+
+a
+  text-decoration: none
+  cursor: pointer
+  color: inherit
+
+  &:hover
+    text-decoration: none
+
+  &:focus
+    text-decoration: none
+
+  &:active
+    text-decoration: none
+
+*, *:before, *:after
+  box-sizing: border-box
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+.ant-form-item-label
+  overflow: visible !important
+
+.adm-popup-body-position-bottom
+  max-width: 768px
+  translate: -50%
+  left: 50%

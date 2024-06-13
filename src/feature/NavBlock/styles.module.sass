@@ -1,0 +1,34 @@
+@import 'src/shared/styles/vars'
+
+.menu
+    height: 100%
+    position: sticky
+    top: 64px
+    bottom: 64px
+    left: 0
+    overflow-y: scroll
+    overflow-x: hidden
+    padding-top: 20px
+
+.menu::-webkit-scrollbar
+    width: 0
+
+.menuItemWithSettings
+    display: flex
+    padding: 0 0 0 48px !important
+
+.menuItemInnerWrapper
+    display: flex
+    justify-content: space-between
+
+.menuSettingsIcon
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #4d4d4d
+
+    &:hover
+        color: $active-tab
+
+.active
+    color: $active-tab
